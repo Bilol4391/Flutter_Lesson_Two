@@ -158,29 +158,183 @@
 //   }
 // }
 
+// import 'package:flutter/material.dart';
+//
+// void main() {
+//   runApp(const MyApp());
+// }
+//
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   // This widget is the root of your application.
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//         home: Container(
+//           color: Colors.black,
+//           child: Row(
+//             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//             children: [
+//               Row(
+//                 children: [
+//                   Container(
+//                     height: 200,
+//                     width: 100,
+//                     color: Colors.red,
+//                   ),
+//                   Container(
+//                     height: 200,
+//                     width: 10,
+//                     color: Colors.black,
+//                   ),
+//                   Column(
+//                     mainAxisAlignment: MainAxisAlignment.center,
+//                     children: [
+//                       Container(
+//                         height: 92,
+//                         width: 100,
+//                         color: Colors.yellow,
+//                       ),
+//
+//                       Container(
+//                         height: 15,
+//                         width: 100,
+//                         color: Colors.black12,
+//                       ),
+//
+//                       Container(
+//                         height: 92,
+//                         width: 100,
+//                         color: Colors.deepPurple,
+//                       ),
+//
+//                     ],
+//                   )
+//
+//                 ],
+//               ),
+//               Row(
+//                 children: [
+//                   Column(
+//                     mainAxisAlignment: MainAxisAlignment.center,
+//                     children: [
+//                       Container(
+//                         height: 92,
+//                         width: 100,
+//                         color: Colors.yellow,
+//                       ),
+//
+//                       Container(
+//                         height: 15,
+//                         width: 50,
+//                         color: Colors.black12,
+//                       ),
+//
+//                       Container(
+//                         height: 92,
+//                         width: 100,
+//                         color: Colors.deepPurple,
+//                       ),
+//
+//                     ],
+//                   )
+//
+//                 ],
+//               ),
+//             ],
+//           )
+//         ));
+//   }
+// }
 
+// import 'package:flutter/material.dart';
+// void main() {
+//   runApp(const MyApp());
+// }
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
 
+//   // This widget is the root of your application.
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//         home: Container(
+//             color: Colors.white,
+//             child: Center(
+//               child: Stack(
+//                 children: [
+//                   Align(
+//                     alignment: Alignment.center,
+//                     child: Container(
+//                       height: 200,
+//                       width: 200,
+//                       color: Colors.red,
+//                     ),
+//                   ),
+//                   Align(
+//                     alignment: Alignment.center,
+//                     child: Container(
+//                       height: 100,
+//                       width: 100,
+//                       color: Colors.black,
+//                     ),
+//                   ),
+//                   Positioned(
+//                     right: 50,
+//                     top: 100,
+//                     child: Container(
+//                       height: 50,
+//                       width: 50,
+//                       color: Colors.blue,
+//                     ),
+//                   )
+//                 ],
+//               ),
+//             )));
+//   }
+// }
 
+//! FLAG
 
-
-
-
-import 'package:flutter/material.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Container(
-          color: Colors.black,
-          
-        ));
-  }
-}
+// import 'package:flutter/material.dart';
+//
+// void main() {
+//   runApp(const MyApp());
+// }
+//
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   // This widget is the root of your application.
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Container(
+//         color: Colors.blue,
+//         child: Stack(children: [
+//           Positioned(
+//             top: 300,
+//             child: Container(
+//               height: 50,
+//               width: 450,
+//               color: Colors.yellow,
+//             ),
+//           ),
+//
+//           Positioned(
+//             top: 1,
+//             bottom: 1,
+//             right: 180,
+//             left: 180,
+//             child: Container(
+//               height: 50,
+//               width: 450,
+//               color: Colors.yellow,
+//             ),
+//           )
+//         ]),
+//       ),
+//     );
+//   }
+// }

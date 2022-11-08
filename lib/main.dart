@@ -338,3 +338,88 @@
 //     );
 //   }
 // }
+
+
+
+
+
+
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Container(
+        color: Colors.blue,
+        child: Stack(children: [
+          Positioned(
+            top: 1,
+            bottom: 1,
+            child: Container(
+              height: 50,
+              width: 450,
+              color: Colors.yellow,
+            ),
+          ),
+
+          Positioned(
+            top: 1,
+            bottom: 100,
+            right: 100,
+            child: Container(
+              height: 50,
+              width: 450,
+              color: Colors.teal,
+            ),
+          ),
+
+          Positioned(
+            top: 150,
+            bottom: 150,
+            right: 150,
+            left: 30,
+            child: Container(
+              height: 50,
+              width: 450,
+              color: Colors.yellow,
+            ),
+          ),
+
+          Positioned(
+            top: 200,
+            bottom: 300,
+            right: 200,
+            left: 100,
+            child: Container(
+              height: 50,
+              width: 450,
+              color: Colors.blue,
+            ),
+          ),
+
+          Positioned(
+            top: 230,
+            bottom: 350,
+            right: 220,
+            left: 120,
+            child: Container(
+              height: 150,
+              width: 450,
+              color: Colors.teal,
+            ),
+          ),
+
+        ]),
+      ),
+    );
+  }
+}
